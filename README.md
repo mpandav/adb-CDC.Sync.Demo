@@ -6,7 +6,7 @@ Creating mimic of CDC using TIBCO BW & ADB plugin for Data sync
 
 
 ## Data Synchronization between source and target system
-Oracle Database CDC events based on create new record (insert), update, delete or upsert operations and Synchornisation of these event data to target sysgtem using TIBCO BusinessWorks and ADB plugin connecting through JMS broker.
+Oracle Database CDC events based on create new record (insert), update, delete or upsert operations and Synchornisation of these event data to target sysgtem using TIBCO BusinessWorks and ADB plugin and JMS broker acting as a event broker for source and target integrations.
 
 <img width="1332" alt="Data Synchronization using TIBCO BusinessWorks" src="https://user-images.githubusercontent.com/38240734/236643032-95323c80-3d48-4668-804b-5ab12ecf6d4b.png">
 
