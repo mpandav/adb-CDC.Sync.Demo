@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_3EgMkOtKEe2l94eGsxctSQ" targetNamespace="http://tns.tibco.com/bw/composite/com.tibco.OracleDB.CDC.Demo" name="com.tibco.OracleDB.CDC.Demo" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_4e_0oOtKEe2l94eGsxctSQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_4fSvkOtKEe2l94eGsxctSQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_4fe80OtKEe2l94eGsxctSQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_4fpU4OtKEe2l94eGsxctSQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_4fxQsOtKEe2l94eGsxctSQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_4f3XUOtKEe2l94eGsxctSQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_4gBIUOtKEe2l94eGsxctSQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_mQh1EOt2Ee2ogZSLA_9bBQ" name="/JDBC/userName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_o-AvAOt2Ee2ogZSLA_9bBQ" name="/JDBC/passWord" type="property:password" scaext:simpleValue="#!xgQ6JrKDZIolwAXj2f2h+g==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_tzDLUOt2Ee2ogZSLA_9bBQ" name="/JDBC/DB_URL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_3_WrQOtKEe2l94eGsxctSQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_3_bjwOtKEe2l94eGsxctSQ" processName="com.tibco.oracledb.cdc.demo.DB_EventSubscriber"/>
+  </sca:component>
+</sca:composite>

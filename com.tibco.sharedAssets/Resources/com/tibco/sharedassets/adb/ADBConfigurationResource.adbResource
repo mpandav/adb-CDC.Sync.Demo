@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adbplugin="http://ns.tibco.com/bw/sharedresource/adbplugin" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_S_OjgOt2Ee2ogZSLA_9bBQ" name="com.tibco.sharedassets.adb.ADBConfigurationResource" type="adbplugin:ADBPluginConnection">
+  <jndi:reference xmi:id="_S_Q_wOt2Ee2ogZSLA_9bBQ" key="jdbcconncetion" type="jdbc:JdbcDataSource" value="com.tibco.sharedassets.adb.JDBCConnectionResource"/>
+  <jndi:configuration xsi:type="adbplugin:ADBPluginConnection" xmi:id="_S_Q_wet2Ee2ogZSLA_9bBQ" defaultSchema="Admin" uuid="b047427d-ea2a-4c9d-9e79-0efc906bb26c">
+    <eventPoller xmi:id="_S_Rm0Ot2Ee2ogZSLA_9bBQ" name="DBPoller" allowKeys="false" dummyNode="true"/>
+    <eventPoller xmi:id="_cY2v4Ot3Ee2ogZSLA_9bBQ" name="DBPoll_Employee" publishingTable="P_E_EMPLOYEE" uuid="6cad0529-391c-4dac-a8df-62eeebda7d25">
+      <table xmi:id="_ZZT_IOuDEe2ogZSLA_9bBQ" name="E_EMPLOYEE">
+        <tableConfiguration xmi:id="_ZZT_IeuDEe2ogZSLA_9bBQ" name="E_EMPLOYEE">
+          <rows xmi:id="_ZZT_IuuDEe2ogZSLA_9bBQ" name="EID" type="string" userKey="true" tableName="E_EMPLOYEE" use="true" dbType="VARCHAR2" primaryKey="true"/>
+          <rows xmi:id="_ZZT_I-uDEe2ogZSLA_9bBQ" name="ENAME" type="string" tableName="E_EMPLOYEE" use="true" dbType="VARCHAR2"/>
+          <rows xmi:id="_ZZT_JOuDEe2ogZSLA_9bBQ" name="EDEPT" type="string" tableName="E_EMPLOYEE" use="true" dbType="VARCHAR2"/>
+          <rows xmi:id="_ZZT_JeuDEe2ogZSLA_9bBQ" name="ESALARY" type="string" tableName="E_EMPLOYEE" use="true" dbType="VARCHAR2"/>
+        </tableConfiguration>
+      </table>
+    </eventPoller>
+    <dbMerger xmi:id="_S_Rm0et2Ee2ogZSLA_9bBQ" name="DBMerger" dummyNode="true"/>
+    <dbRequester xmi:id="_S_Rm0ut2Ee2ogZSLA_9bBQ" dummyNode="true" name="DBRequester"/>
+  </jndi:configuration>
+</jndi:namedResource>

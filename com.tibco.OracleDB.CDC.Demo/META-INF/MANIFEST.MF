@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Com Tibco OracleDB CDC Demo Module
+Bundle-SymbolicName: com.tibco.OracleDB.CDC.Demo
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tibco.bw.module; filter:="(&(name=com.tibco.sharedAssets)(version=1.0.0))",com.tibco.bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.palette; filter:="(name=bw.adbplugin)",com.tibco.bw.sharedresource.model; filter:="(name=bw.adbpluginconnection)",com.tibco.bw.sharedresource.model; filter:="(name=bw.jdbc)"
+TIBCO-BW-Edition: bwcf
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+TIBCO-BW-Version: 2.8.1 V47 2023-02-15

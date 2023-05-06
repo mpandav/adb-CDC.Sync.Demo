@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns:sub="http://www.tibco.com/xmlns/adb/b047427d-ea2a-4c9d-9e79-0efc906bb26c6cad0529-391c-4dac-a8df-62eeebda7d25_schema" xmlns:tns="http://www.tibco.com/xmlns/adb/b047427d-ea2a-4c9d-9e79-0efc906bb26c6cad0529-391c-4dac-a8df-62eeebda7d25" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.tibco.com/xmlns/adb/b047427d-ea2a-4c9d-9e79-0efc906bb26c6cad0529-391c-4dac-a8df-62eeebda7d25" xmlns="http://www.w3.org/2001/XMLSchema">
+    <import namespace="http://www.tibco.com/xmlns/adb/b047427d-ea2a-4c9d-9e79-0efc906bb26c6cad0529-391c-4dac-a8df-62eeebda7d25_schema" schemaLocation="DBPoll_Employee_schema.xsd"/>
+    <element name="ActivityOutput" type="tns:ActivityOutput_Type"/>
+    <complexType name="ActivityOutput_Type">
+        <sequence>
+            <element minOccurs="0" name="body" type="tns:body_Type"/>
+        </sequence>
+    </complexType>
+    <complexType name="body_Type">
+        <choice>
+            <element maxOccurs="unbounded" minOccurs="0" name="P__E__EMPLOYEE" type="sub:P__E__EMPLOYEE_Type"/>
+        </choice>
+    </complexType>
+</schema>

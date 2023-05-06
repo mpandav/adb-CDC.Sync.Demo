@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/EventData" xmlns:tns="http://www.example.org/EventData" elementFormDefault="qualified">
+
+    <element name="Event" type="tns:Event"></element>
+
+    <complexType name="Event">
+    	<sequence>
+    		<element name="body" type="string"></element>
+    	</sequence></complexType>
+</schema>
