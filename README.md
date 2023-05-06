@@ -1,4 +1,5 @@
 # Event Driven Data Integration - Chnage Data Capture
+Creating mimic of CDC using TIBCO BW & ADB plugin for Data sync
 
 ## Data Synchronization between source and target system
 Oracle Database CDC events based on create new record (insert), update, delete or upsert operations and Synchornisation of these event data to target sysgtem using TIBCO BusinessWorks and ADB plugin connecting through JMS broker.
