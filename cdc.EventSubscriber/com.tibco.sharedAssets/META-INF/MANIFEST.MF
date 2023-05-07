@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Com Tibco SharedAssets Module
+Bundle-SymbolicName: com.tibco.sharedAssets
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-SharedModule: META-INF/module.bwm
+TIBCO-BW-Edition: bwcf,bwe
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.palette; filter:="(name=bw.jms)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.adbpluginconnection)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.jdbc)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.jmsconnection)"
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Provide-Capability: com.tibco.bw.module; name="com.tibco.sharedAssets"; version:Version="1.0.0",
+ com.tibco.bw.schemas; ns="http://www.tibco.com/xmlns/adb/b047427d-ea2a-4c9d-9e79-0efc906bb26c6cad0529-391c-4dac-a8df-62eeebda7d25_com.tibco.sharedAssets_SM",
+ com.tibco.bw.schemas; ns="http://www.tibco.com/xmlns/adb/b047427d-ea2a-4c9d-9e79-0efc906bb26c6cad0529-391c-4dac-a8df-62eeebda7d25_com.tibco.sharedAssets_SM_schema",
+ com.tibco.bw.schemas; ns="http://www.example.org/EventData",
+ com.tibco.bw.processes; name="com.tibco.sharedassets",
+ com.tibco.bw.resources; name="com.tibco.sharedassets.adb",
+ com.tibco.bw.resources; name="com.tibco.sharedassets.jms"
+TIBCO-BW-Version: 2.8.1 V47 2023-02-15
