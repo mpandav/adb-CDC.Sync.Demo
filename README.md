@@ -32,5 +32,5 @@ Oracle Database CDC events based on create new record (insert), update, delete o
 - Create the Events from database with insert, update or delete operation. 
 
 ## References:
-- [TIBCO Businessworks documents](https://docs.tibco.com/pub/bwce/2.7.3/doc/html/Default.htm)
+- [TIBCO Businessworks](https://docs.tibco.com/pub/bwce/2.7.3/doc/html/Default.htm)
 - [TIBCO Plugin for Databse](https://docs.tibco.com/pub/bwpluginadb/8.5.0/doc/html/GUID-58450BE9-C7B7-423E-9F56-8FBF489C1195.htm)
