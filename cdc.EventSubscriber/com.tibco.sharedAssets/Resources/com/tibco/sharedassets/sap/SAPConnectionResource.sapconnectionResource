@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:sapconnection="http://ns.tibco.com/bw/sharedresource/sapconnection" xmi:id="_PwgG0O5tEe2xm7ebS6lJ4w" name="com.tibco.sharedassets.sap.SAPConnectionResource" type="sapconnection:SAPConnection">
+  <jndi:reference xmi:id="_Vz8agO5uEe2xm7ebS6lJ4w" key="jmsConnectionServiceProvider" type="jms:JMSConnectionFactory" value="com.tibco.sharedassets.jms.JMSConnectionResource"/>
+  <jndi:configuration xsi:type="sapconnection:SAPConnection" xmi:id="_PxtAsO5tEe2xm7ebS6lJ4w" clientConnName="com.tibco.sharedassets.sap.SAPConnectionResource.ClientConnection" connType="Dedicated Application Server" language="English" snc_Bsso="0" snc_SSOrecv="" snc_x509="" s_enabled="true" s_serverConnName="com.tibco.sharedassets.sap.SAPConnectionResource.ServerConnection" s_connType="Default" sapConnAlias="9a3bc9de-86e7-4960-948c-57520789bf37" languageCode="E">
+    <substitutionBindings xmi:id="_PxtAse5tEe2xm7ebS6lJ4w" template="appServer" propName="SAPAppServer"/>
+    <substitutionBindings xmi:id="_PxtAsu5tEe2xm7ebS6lJ4w" template="systemNumber" propName="SAPSystemNumber"/>
+    <substitutionBindings xmi:id="_PxtAs-5tEe2xm7ebS6lJ4w" template="client" propName="SAPClient"/>
+    <substitutionBindings xmi:id="_PxtAtO5tEe2xm7ebS6lJ4w" template="userName" propName="SAPUserName"/>
+    <substitutionBindings xmi:id="_PxtAte5tEe2xm7ebS6lJ4w" template="password" propName="SAPPassword"/>
+    <substitutionBindings xmi:id="_PxtAtu5tEe2xm7ebS6lJ4w" template="systemName" propName="SAPSystemName"/>
+    <substitutionBindings xmi:id="_PxtAt-5tEe2xm7ebS6lJ4w" template="msgServer" propName="SAPMsgServer"/>
+    <substitutionBindings xmi:id="_PxtAuO5tEe2xm7ebS6lJ4w" template="groupName" propName="SAPLogonGroup"/>
+    <substitutionBindings xmi:id="_PxtAue5tEe2xm7ebS6lJ4w" template="snc_mode" propName="SAPSncMode"/>
+    <substitutionBindings xmi:id="_PxtAuu5tEe2xm7ebS6lJ4w" template="snc_partnername" propName="SAPSncPartnername"/>
+    <substitutionBindings xmi:id="_PxtAu-5tEe2xm7ebS6lJ4w" template="snc_qop" propName="SAPSncQop"/>
+    <substitutionBindings xmi:id="_PxtAvO5tEe2xm7ebS6lJ4w" template="snc_lib" propName="SAPSncLib"/>
+    <substitutionBindings xmi:id="_PxtAve5tEe2xm7ebS6lJ4w" template="clientConnectionString" propName="SAPClientOptions"/>
+    <substitutionBindings xmi:id="_PxtAvu5tEe2xm7ebS6lJ4w" template="s_programID" propName="SAPProgramID"/>
+    <substitutionBindings xmi:id="_PxtAv-5tEe2xm7ebS6lJ4w" template="s_gatewayService" propName="SAPGatewayService"/>
+    <substitutionBindings xmi:id="_PxtAwO5tEe2xm7ebS6lJ4w" template="s_gatewayHost" propName="SAPGatewayHost"/>
+    <substitutionBindings xmi:id="_PxtAwe5tEe2xm7ebS6lJ4w" template="s_snc_mode" propName="SAPSncMode"/>
+    <substitutionBindings xmi:id="_PxtAwu5tEe2xm7ebS6lJ4w" template="s_snc_qop" propName="SAPSncQop"/>
+    <substitutionBindings xmi:id="_PxtAw-5tEe2xm7ebS6lJ4w" template="s_snc_myname" propName="SAPSncMyname"/>
+    <substitutionBindings xmi:id="_PxtAxO5tEe2xm7ebS6lJ4w" template="s_snc_lib" propName="SAPSncLib"/>
+    <substitutionBindings xmi:id="_PxtAxe5tEe2xm7ebS6lJ4w" template="serverConnectionString" propName="SAPServerOptions"/>
+  </jndi:configuration>
+</jndi:namedResource>

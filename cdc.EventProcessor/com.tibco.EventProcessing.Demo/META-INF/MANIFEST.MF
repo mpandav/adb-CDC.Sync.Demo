@@ -4,10 +4,14 @@ Bundle-Name: Com Tibco EventProcessing Demo Module
 Bundle-SymbolicName: com.tibco.EventProcessing.Demo
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: TIBCO Software Inc.
-TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
-Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tibco.bw.module; filter:="(&(name=com.tibco.sharedAssets)(version=1.0.0))",com.tibco.bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.palette; filter:="(name=bw.jms)"
-TIBCO-BW-Edition: bwcf
-TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-Edition: bwcf
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.module; filter:="(&(name=com.tibco.sharedAssets)(version=1.0.0))",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.palette; filter:="(name=bw.jms)",
+ com.tibco.bw.palette; filter:="(name=bw.xml)"
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
 TIBCO-BW-Version: 2.8.1 V47 2023-02-15

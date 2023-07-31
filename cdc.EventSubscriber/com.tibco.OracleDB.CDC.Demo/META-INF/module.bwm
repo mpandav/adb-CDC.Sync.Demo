@@ -13,4 +13,7 @@
   <sca:component xmi:id="_3_WrQOtKEe2l94eGsxctSQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_3_bjwOtKEe2l94eGsxctSQ" processName="com.tibco.oracledb.cdc.demo.DB_EventSubscriber"/>
   </sca:component>
+  <sca:component xmi:id="_qxOswO5uEe2xm7ebS6lJ4w" name="Component1Process" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_qxOswe5uEe2xm7ebS6lJ4w" processName="com.tibco.oracledb.cdc.demo.Process"/>
+  </sca:component>
 </sca:composite>

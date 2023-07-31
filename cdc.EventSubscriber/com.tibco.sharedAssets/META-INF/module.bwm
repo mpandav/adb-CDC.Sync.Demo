@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_LZ4JcOt7Ee2ogZSLA_9bBQ" targetNamespace="http://tns.tibco.com/bw/composite/com.tibco.sharedAssets" name="com.tibco.sharedAssets" compositeext:version="1.0.0" compositeext:formatVersion="2">
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_LZ4JcOt7Ee2ogZSLA_9bBQ" targetNamespace="http://tns.tibco.com/bw/composite/com.tibco.sharedAssets" name="com.tibco.sharedAssets" compositeext:version="1.0.0" compositeext:formatVersion="2">
   <sca:property xmi:id="_LfGnsOt7Ee2ogZSLA_9bBQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_LfTcAOt7Ee2ogZSLA_9bBQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_LfUDEOt7Ee2ogZSLA_9bBQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
@@ -10,6 +10,24 @@
   <sca:property xmi:id="_LfYUgOt7Ee2ogZSLA_9bBQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_LfY7kOt7Ee2ogZSLA_9bBQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="_LfZioOt7Ee2ogZSLA_9bBQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_PxJnEO5tEe2xm7ebS6lJ4w" name="SAPAppServer" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOIO5tEe2xm7ebS6lJ4w" name="SAPSystemNumber" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOIe5tEe2xm7ebS6lJ4w" name="SAPClient" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOIu5tEe2xm7ebS6lJ4w" name="SAPUserName" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOI-5tEe2xm7ebS6lJ4w" name="SAPPassword" type="property:password"/>
+  <sca:property xmi:id="_PxKOJO5tEe2xm7ebS6lJ4w" name="SAPSystemName" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOJe5tEe2xm7ebS6lJ4w" name="SAPMsgServer" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOJu5tEe2xm7ebS6lJ4w" name="SAPLogonGroup" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOJ-5tEe2xm7ebS6lJ4w" name="SAPProgramID" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOKO5tEe2xm7ebS6lJ4w" name="SAPGatewayService" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOKe5tEe2xm7ebS6lJ4w" name="SAPGatewayHost" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxKOKu5tEe2xm7ebS6lJ4w" name="SAPSncMode" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxK1MO5tEe2xm7ebS6lJ4w" name="SAPSncPartnername" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxK1Me5tEe2xm7ebS6lJ4w" name="SAPSncQop" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxK1Mu5tEe2xm7ebS6lJ4w" name="SAPSncMyname" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxK1M-5tEe2xm7ebS6lJ4w" name="SAPSncLib" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxK1NO5tEe2xm7ebS6lJ4w" name="SAPClientOptions" type="XMLSchema:string"/>
+  <sca:property xmi:id="_PxK1Ne5tEe2xm7ebS6lJ4w" name="SAPServerOptions" type="XMLSchema:string"/>
   <sca:property xmi:id="_hWKakOt7Ee2ogZSLA_9bBQ" name="/SharedResources/JDBC/userName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_eO1dQOt7Ee2ogZSLA_9bBQ" name="/SharedResources/JDBC/passWord" type="property:password" scaext:simpleValue="#!1rsVxRdRO0GCVHwCCrAdpQ==" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_h5S80Ot7Ee2ogZSLA_9bBQ" name="/SharedResources/JDBC/DB_URL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
